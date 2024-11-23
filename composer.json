@@ -1,0 +1,29 @@
+{
+    "name": "concept-labs/dbal-mysql",
+    "description": "(C)oncept-Labs DBAL: MySQL dialect",
+    "keywords": ["php","dbal", "mysql"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "mtr",
+            "email": "info.concept.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "concept-labs/config": "^1",
+        "concept-labs/dbal": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\DBAL\\Mysql": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+
+}
