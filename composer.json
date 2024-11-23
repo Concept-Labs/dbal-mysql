@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Concept\\DBAL\\Mysql": "src/"
+            "Concept\\DBAL\\Mysql\\": "src/"
         }
     },
     "require-dev": {
