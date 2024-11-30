@@ -1,0 +1,13 @@
+{
+    "di": {
+        "package": {
+            "concept-labs/dbal-mysql": {
+                "preference": {
+                    "Concept\\DBAL\\DML\\Expression\\Dialect\\DialectAdapterInterface": {
+                        "class": "Concept\\DBAL\\Mysql\\DML\\Expression\\Dialect\\MysqlDialect"
+                    }
+                }
+            }
+        }
+    }
+}
